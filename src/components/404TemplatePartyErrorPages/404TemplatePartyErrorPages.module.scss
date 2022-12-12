@@ -1,0 +1,172 @@
+.containerErro404Page1 {
+  // width: 100vw;
+  // height: 100vh;
+
+  background: #53c5e7;
+  display: flex;
+  // display: grid;
+  // font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  position: relative;
+  // height: 600px;
+  // width: 750px;
+  width: 80vmax;
+  min-height: 90%;
+  margin: auto;
+
+  svg {
+    height: 100%;
+  }
+
+  p,
+  a {
+    display: none;
+    margin: 0;
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #032c3f;
+    font-size: 24px;
+  }
+}
+
+.textA {
+  top: 169px;
+  left: 257px;
+  transform: rotate(-3deg);
+}
+.textB {
+  font-weight: 700;
+  font-size: 135px;
+  top: 209px;
+  left: 273px;
+  transform: rotate(-2deg);
+}
+.textC {
+  top: 370px;
+  left: 428px;
+  font-size: 30px;
+  transform: rotate(1deg);
+}
+
+.hide_ {
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: (50% 50%);
+}
+
+.bottomTriangles {
+  transform: scale(1) rotate(0deg) translateY(1vmax);
+  // display: none;
+}
+.endTriangle {
+  // animation: spinTriangleRotate 5s infinite linear;
+  fill: #fff;
+}
+.startTriangle {
+  transform: translate(5px, -2px);
+  fill: #fff;
+  // display: none;
+}
+
+.box {
+  transform: scale(1); 
+  transform-origin: (50% 50%);
+}
+
+
+.bigWhiteCircle {
+  transform: scale(1);
+  transform-origin: (50% 50%);
+  
+  fill: white;
+}
+
+.spinCircles {
+  // opacity: 1;
+  // transform-origin: (50% 50%);
+  animation: spinCirlesRotate 5s infinite linear;
+}
+
+.growCircles {
+  display: none;
+ }
+ 
+.triDots{
+  display: none;
+  opacity: 1;
+}
+
+.squiggles {
+
+  // display: none;
+
+}
+.squiggleBottom {
+ 
+  .squiggleBottomFull {
+    fill: none;
+    stroke: rgb(7, 122, 7);
+    stroke-linecap: round;
+    stroke-miterlimit: 10; 
+    stroke-width: 12px;
+  }
+  
+  .dotsBottom {
+    fill: rgb(255, 255, 255);
+  }
+}
+
+.growCrosshairs {
+  fill: #fdd700;
+  stroke-width: 10px;
+}
+
+.leftLines {
+  fill: none; 
+  stroke: rgba(255, 0, 0, 0.699); 
+  stroke-linecap: round;
+  stroke-miterlimit: 10; 
+  stroke-width: 6px;
+}
+
+.topTriangles {
+  // display: none;
+  .topTrianglePolygon {
+    fill: rgba(248, 0, 0, 0.835);
+  }
+
+  .topTrianglePolyline {
+    fill: rgba(255, 136, 0, 0.788);
+  }
+}
+
+.words {
+  // display: none;
+  
+}
+
+@keyframes spinCirlesRotate {
+  0%, 100% {
+    transform: rotate3d(0,0,0, 0deg);
+  }
+  50% {
+    transform: rotate3d(0,0,1, -8deg);
+  }
+}
+
+@keyframes spinTriangleRotate {
+  0% {
+    // transform: rotate(1deg);
+  }
+  50% {
+    // fill: #ff00f2;
+    
+    transform: skew(-1deg, 0.5deg);
+  }
+  100% {
+    // opacity: 0.1;
+  }
+}

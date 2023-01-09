@@ -362,26 +362,26 @@ export function _404TemplatePartyErrorPages() {
               
               <text 
                 transform="translate(710 655.9)" 
-                style={{fontSize: '10vmax', fill: '#032c3f',fontFamily: 'Futura-CondensedMedium, Futura'}}
+                style={{fontSize: '7rem', fill: '#032c3f',fontFamily: 'Futura-CondensedMedium, Futura'}}
               >
                 R
-                <tspan x="60" y="0" style={{fontSize: '6vmax'}}>
+                <tspan x="75" y="0" style={{fontSize: '4rem'}}>
                   etonar 
                 </tspan>
-                <tspan x="65" y="30" style={{fontSize: '3vmax'}}>
+                <tspan x="65" y="30" style={{fontSize: '2rem'}}>
                   para o início
                 </tspan>
               </text>
 
               <text 
-                transform="translate(410 540)" 
-                style={{fontSize: '20vmax', fontWeight: 700}}
+                transform="translate(480 540)" 
+                style={{fontSize: '12rem', fontWeight: 700}}
               >
                 4
-                <tspan x="150" y="-5" style={{fontSize: '15vmax'}}>
+                <tspan x="130" y="-5" style={{fontSize: '10rem'}}>
                   0
                 </tspan>
-                <tspan x="280" y="10" style={{fontSize: '17vmax'}}>
+                <tspan x="230" y="10" style={{fontSize: '12rem'}}>
                   4
                 </tspan>
               </text>
